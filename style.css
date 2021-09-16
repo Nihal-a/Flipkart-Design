@@ -237,3 +237,21 @@ nav{
     color: #c2c2c2;
 }
 /* items ends */
+/* mobile off */
+#off{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.offimg-area{
+    width: 100%;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+}
+.offimg{
+    margin: 2px;
+    width: 29.5rem;
+}
+/* mobile off */

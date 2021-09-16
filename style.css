@@ -83,7 +83,6 @@ nav{
     margin-top: 56px;
     height: 112px;
     background-color: #fff;
-    position: fixed;
     border-bottom: 1px solid #CCCFD1;
 }
 .category-container{
@@ -112,7 +111,6 @@ nav{
 
 /* Banner */
 .banner-img{
-    margin-top: 168px;
     width: 100%;
     height: 280px;
     padding: 16px 0;
@@ -209,3 +207,32 @@ nav{
     margin-top: 8px;
 }
 /* Deal of the dat section ends */
+/* items starts */
+#items-row{
+    width: 100%;
+    height: 362px;
+}
+.item-area{
+    width: 99%;
+    height: 98%;
+    background-color: rgb(255, 255, 255);
+    margin: 0 10px;
+    border: 1px solid #eaeaea;
+    box-shadow: 2px 1px 3px #eaeaea;
+}
+.item-row{
+    width: 100%;
+    height: 287px;
+    overflow: scroll;
+    padding: 10px;
+}
+.item-row::-webkit-scrollbar{
+    display: none;
+}
+.time-area h6{
+    font-size: 14px;
+    margin-top: 4px;
+    font-weight: 400;
+    color: #c2c2c2;
+}
+/* items ends */

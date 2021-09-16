@@ -177,6 +177,7 @@ nav{
     width: 195px;
     height: 287px;
     padding: 25px 15px;
+    cursor: pointer;
 }
 .deal-img{
     width: 150px;

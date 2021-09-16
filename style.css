@@ -7,8 +7,13 @@
 body{
     background-color: #EFF2F5;
     font-family: 'Roboto', sans-serif;
+    height: 300vh;
 }
-
+.h-center{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 /* Nav starts */
 nav{
     width: 100%;
@@ -112,4 +117,56 @@ nav{
     padding: 16px 0;
 }
 /* Banner */
-/* 280 */
+/* Deal of the dat section starts */
+#dealofday{
+    width: 100%;
+    height: 362px;
+}
+.off-poster{
+    width: 230px;
+    height: 353px;
+    border: 4px solid #fff;
+}
+.deal-area{
+    width: calc(100% - 234px);
+    height: 98%;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    border: 1px solid #eaeaea;
+    box-shadow: 2px 1px 3px #eaeaea;
+}
+.deal-header{
+    width: 100%;
+    height: 63px;
+    padding: 15px 20px;
+    justify-content: space-between;
+    border-bottom: 1px solid #eaeaea;
+}
+.time{
+    margin-left: 1rem;
+}
+.time img{
+    width: 24px;
+    height: 24px;
+}
+.time p{
+    font-size: 16px;
+    color: #7f7f7f;
+    font-weight: 400;
+}
+.time-area h4{
+    font-size: 22px;
+    color: #212121;
+    font-weight: 500;
+}
+.view-cta{
+    padding: 10px 20px;
+    background-color: #2873F0;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    box-shadow: 3px 3px 4px #eaeaea;
+    border-radius: 1px;
+}
+/* Deal of the dat section ends */

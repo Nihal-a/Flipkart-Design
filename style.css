@@ -223,7 +223,8 @@ nav{
 .item-row{
     width: 100%;
     height: 287px;
-    overflow: scroll;
+    overflow-x: scroll;
+    overflow-y: hidden;
     padding: 10px;
 }
 .item-row::-webkit-scrollbar{

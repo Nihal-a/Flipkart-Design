@@ -366,3 +366,11 @@ footer{
         width: 300px;
     }
 }
+@media only screen and (max-width : 771px){
+    .navbar-container{
+        max-width: 751px;
+    }
+    .nav-input{
+        width: 300px;
+    }
+}

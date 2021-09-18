@@ -366,11 +366,47 @@ footer{
         width: 300px;
     }
 }
-@media only screen and (max-width : 771px){
+@media only screen and (max-width : 777px){
     .navbar-container{
         max-width: 751px;
     }
     .nav-input{
-        width: 300px;
+        width: 200px;
+    }
+    .footer-foot{
+        display: flex;
+        flex-direction: column;
+    }
+    .foot-container{
+        width: 100%;
+    }
+    #categories{
+        width: 100%;
+    }
+    .category-container{
+        width: 100%;
+        overflow: scroll;
+    }
+}
+@media only screen and (max-width : 559px){
+    .nav-input{
+        width: 100px;
+    }
+    .hide{
+        display: none;
+    }
+    .nav-items{
+        width: 13rem;
+    }
+}
+@media only screen and (max-width : 410px){
+    .footer-foot{
+        display: none;
+    }
+    .nav-input{
+       display: none;
+    }
+    .s-icon{
+        display: none;
     }
 }
